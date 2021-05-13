@@ -1,3 +1,2 @@
 #!/bin/bash
-
-mvn -f Jenkins-Maven/pom.xml clean package -U
+mvn -B -DskipTests clean package
