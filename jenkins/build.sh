@@ -1,3 +1,2 @@
 #!/bin/bash
-
-mvn clean package
+mvn enforcer:display-info
