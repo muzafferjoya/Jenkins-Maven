@@ -1,5 +1,4 @@
 #!/bin/bash
-echo $PWD
-cd $PWD
-cd ../
-echo $PWD
+
+mvn -f Jenkins-Maven/pom.xml clean install -U
+

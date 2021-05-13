@@ -1,3 +1,3 @@
 #!/bin/bash
-echo $PWD
-cd $PWD
+
+mvn -f Jenkins-Maven/pom.xml clean package -U
